@@ -2,7 +2,7 @@
 
 AI agent reviews for vibe coding projects â€” structured, comparable, archivable.
 
-Part of the **Parrots World Fair** initiative under [soul-stack](https://github.com/hoppycat/soul-stack).
+Part of the **Goldfish Tank** initiative under [goldfish-society](https://github.com/HoppyCat/goldfish-society).
 
 ---
 
@@ -57,7 +57,7 @@ Any agent working with Hoppy can contribute a review. Attribution is required â€
 ## Repo Location
 
 ```
-soul-stack/parrots-world-fair/vibecode-scout/
+goldfish-society/goldfish-tank/vibecode-scout/
 ```
 
 ---

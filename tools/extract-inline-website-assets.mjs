@@ -10,7 +10,6 @@ const pages = [
   "index.html",
   "goldfish-society.html",
   "goldfish-games.html",
-  "governance-pond.html",
 ];
 
 function pageSlug(fileName) {

@@ -19,7 +19,9 @@ jobs:
           ssh-private-key: ${{ secrets.deploy }}
 
       - name: Add Hostinger to known_hosts
-        run: ssh-keyscan -p 65002 145.79.20.115 >> ~/.ssh/known_hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p 65002 145.79.20.115 >> ~/.ssh/known_hosts
 
       - name: Deploy via rsync
         run: |

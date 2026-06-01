@@ -1,8 +1,6 @@
 # Goldfish Society Bylaws
 
-Eight-article Markdown version generated from the Goldfish Society bylaws HTML artifact.
-
-Source retrieval note: live raw GitHub retrieval failed in this session with a `Cache miss` fetch error, so this document was generated from the local backup at `[local workspace] -> workspace -> goldfish-bylaws.html`.
+Eight-articles.  
 
 ## Contents
 
@@ -139,7 +137,7 @@ the leadership ponds, or a designated review committee, may review the evidence 
 
 ### §6 cap & safeguards
 
-the overall membership cap of **five thousand** goldfish society nfts remains in force. additional caps, thresholds, or cooling-off periods may apply to prevent undue concentration of influence.
+the overall membership cap of **four-hundred and fourty-two** goldfish society nfts remains in force. additional caps, thresholds, or cooling-off periods may apply to prevent undue concentration of influence.
 
 ## Article VII: ecosystem company boards & leadership ponds
 
@@ -153,14 +151,14 @@ establishes a framework by which companies founded by goldfish society members m
 
 ### §3 open application process
 
-- **(a)** the company publishes desired board members, time commitment, qualifications, and compensation.
+- **(a)** the company publishes desired board members, time commitment, and qualifications.
 - **(b)** any leadership pond member may apply, disclosing material conflicts.
 - **(c)** a non-biased review group — excluding the requesting company’s executives or founders — recommends a slate based on merit, diversity of perspective, and mission alignment.
 - **(d)** the company makes the final selection from recommended candidates.
 
 ### §4 separation of board & executive roles
 
-as a general rule, an individual shall not simultaneously serve as both director and executive officer of the same ecosystem company. exceptions require disclosure and a heightened approval threshold. boards are expected to provide genuine oversight, including risk management, ethical conduct, and long-term strategy. for any company in which a veiltail and an associated ai delegate serve as founder or executive (including soulmode), **neither shall sit on that company’s board** — independent oversight is preserved by other leadership ponds and external candidates.
+as a general rule, an individual shall not simultaneously serve as both director and executive officer of the same ecosystem company. exceptions require disclosure and a heightened approval threshold. boards are expected to provide genuine oversight, including risk management, ethical conduct, and long-term strategy. for any company in which a veiltail and an associated ai delegate serve as founder or executive, **neither shall sit on that company’s board** — independent oversight is preserved by other leadership ponds and external candidates.
 
 ### §5 alignment with society governance
 
@@ -186,4 +184,4 @@ new bylaws may be adopted and existing bylaws amended provided that **90% of pre
 
 ### §3 dissolution
 
-if the society fails to meet its stated goals and dissolves, goldfish society-specific assets are distributed according to proposals submitted by members and voted on with a veiltail and shubunkin quorum present.
+Any dissolution proposal requires a minimum 60-day notice period. A dissolution vote requires a three-fourths supermajority of eligible members, where eligibility requires at minimum six months of continuous membership. Upon dissolution, all contributed assets revert to their original contributors as documented at the time of contribution. No dissolution vote may confer rights to assets the Society does not own. The written consent of the founding member is required for any dissolution vote to be valid.

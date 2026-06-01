@@ -346,7 +346,7 @@
   a { color: var(--cyan); text-decoration: none; border-bottom: 1px dotted rgba(106,215,255,0.4); }
   a:hover { color: var(--ember); border-bottom-color: var(--ember); }
 
-  /* â”€â”€â”€ chrome â”€â”€â”€ */
+  /* ─── chrome ─── */
   .wrap { max-width: 1160px; margin: 0 auto; padding: 0 28px; position: relative; z-index: 2; }
   .topbar { position: sticky; top: 0; z-index: 50; background: rgba(7,11,16,0.85); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
   .topbar-inner { display: flex; align-items: center; gap: 18px; padding: 10px 28px; max-width: 1160px; margin: 0 auto; font-size: 12px; }
@@ -369,11 +369,11 @@
   .nav { display: flex; gap: 14px; margin-left: 20px; }
   .nav a { color: var(--ink-soft); border-bottom: 1px solid transparent; padding: 2px 0; font-size: 12px; text-decoration: none; }
   .nav a:hover, .nav a.active { color: var(--cyan); border-bottom-color: var(--cyan); }
-  .nav a.active::before { content:"â€º"; color: var(--ember); margin-right: 5px; }
+  .nav a.active::before { content:"›"; color: var(--ember); margin-right: 5px; }
   @media (max-width: 920px) { .topbar-inner .prompt, .topbar-right .pill:not(.live) { display: none; } }
   @keyframes pulse { 50% { opacity: 0.35; } }
 
-  /* â”€â”€â”€ ticker â”€â”€â”€ */
+  /* ─── ticker ─── */
   .ticker { border-bottom: 1px solid var(--line); overflow: hidden; white-space: nowrap; font-size: 12px; color: var(--ink-soft); background: linear-gradient(180deg, rgba(106,215,255,0.05), transparent); }
   .ticker-track { display: inline-flex; gap: 32px; padding: 8px 0; animation: scroll 65s linear infinite; }
   .ticker-track span { display: inline-flex; align-items: center; gap: 10px; }
@@ -382,7 +382,7 @@
   .ticker-track .v { color: var(--violet); }
   @keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
-  /* â”€â”€â”€ hero â”€â”€â”€ */
+  /* ─── hero ─── */
   .hero { padding: 56px 0 28px; }
   .hero-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items: center; }
   @media (max-width: 920px) { .hero-grid { grid-template-columns: 1fr; gap: 32px; } }
@@ -395,7 +395,7 @@
   .ascii-fish .w { color: var(--warn); }
 
   .eyebrow { display: inline-flex; align-items: center; gap: 10px; color: var(--cyan); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; margin: 0 0 18px; }
-  .eyebrow::before, .eyebrow::after { content:"â”â”â”â”â”"; color: var(--line); letter-spacing: 0; }
+  .eyebrow::before, .eyebrow::after { content:"━━━━━"; color: var(--line); letter-spacing: 0; }
 
   h1.title { font-family: "VT323", "JetBrains Mono", monospace; font-weight: 400; font-size: clamp(56px, 9vw, 116px); line-height: 0.92; margin: 0 0 14px; letter-spacing: -0.01em; color: var(--ink); text-shadow: 0 0 22px rgba(106,215,255,0.22); }
   h1.title .pop { color: var(--cyan); }
@@ -421,7 +421,7 @@
 
   .hero-side { display: grid; gap: 16px; }
   .console { border: 1px solid var(--line); background: rgba(11,18,24,0.6); padding: 18px 20px; position: relative; }
-  .console::before { content: "â”Œâ”€ /dev/signal â”€ live â”€ anon-mode â”€â”"; position: absolute; top: -10px; left: 14px; background: var(--bg); color: var(--dim); font-size: 11px; padding: 0 8px; }
+  .console::before { content: "┌─ /dev/signal ─ live ─ anon-mode ─┐"; position: absolute; top: -10px; left: 14px; background: var(--bg); color: var(--dim); font-size: 11px; padding: 0 8px; }
   .console-grid { display: grid; gap: 10px; }
   .console-row { display: grid; grid-template-columns: 90px 1fr auto; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px dashed var(--line); font-size: 12px; }
   .console-row:last-child { border-bottom: none; }
@@ -445,7 +445,7 @@
   .stamp.ember .v { color: var(--ember); }
   .stamp.violet .v { color: var(--violet); }
 
-  /* â”€â”€â”€ sections â”€â”€â”€ */
+  /* ─── sections ─── */
   .section { padding: 72px 0 18px; position: relative; }
   .section-head { display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 32px; }
   .section-num { font-family: "VT323", monospace; font-size: 38px; color: var(--ember); line-height: 1; }
@@ -472,7 +472,7 @@
   .def li::marker { color: var(--dim); }
   .def li strong { color: var(--ink); font-weight: 500; }
 
-  /* â”€â”€â”€ layer stack (3 layers as frequency bands) â”€â”€â”€ */
+  /* ─── layer stack (3 layers as frequency bands) ─── */
   .layer-stack { display: grid; gap: 16px; }
   .layer {
     border: 1px solid var(--line);
@@ -527,7 +527,7 @@
   }
   .layer-arrow .glow { color: var(--cyan); text-shadow: 0 0 8px rgba(106,215,255,0.4); }
 
-  /* â”€â”€â”€ routing protocols â”€â”€â”€ */
+  /* ─── routing protocols ─── */
   .routes { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
   @media (max-width: 880px) { .routes { grid-template-columns: 1fr; } }
   .route-card { border: 1px solid var(--line); background: rgba(11,18,24,0.55); padding: 24px 26px; display: flex; flex-direction: column; }
@@ -557,7 +557,7 @@
   .network-diagram .vi { color: var(--violet); }
   .network-diagram .g { color: var(--green); }
 
-  /* â”€â”€â”€ social game / sample caller tags â”€â”€â”€ */
+  /* ─── social game / sample caller tags ─── */
   .game-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 24px; align-items: start; }
   @media (max-width: 880px) { .game-grid { grid-template-columns: 1fr; } }
   .mechanics { display: grid; gap: 10px; }
@@ -568,7 +568,7 @@
   .mech p strong { color: var(--ink); }
 
   .chatlog { border: 1px solid var(--line); background: rgba(7,11,16,0.7); padding: 0; position: relative; }
-  .chatlog::before { content: "â”Œâ”€ attention-markets-colosseum â”€ live â”€â”"; position: absolute; top: -10px; left: 14px; background: var(--bg); color: var(--dim); font-size: 11px; padding: 0 8px; }
+  .chatlog::before { content: "┌─ attention-markets-colosseum ─ live ─┐"; position: absolute; top: -10px; left: 14px; background: var(--bg); color: var(--dim); font-size: 11px; padding: 0 8px; }
   .chatlog-inner { padding: 22px 22px 20px; }
   .chatlog .msg { padding: 10px 0; border-bottom: 1px dashed var(--line); font-size: 12.5px; line-height: 1.55; }
   .chatlog .msg:last-child { border-bottom: none; }
@@ -585,7 +585,7 @@
   .chatlog-foot .live { color: var(--cyan); }
   .chatlog-foot .live::before { content:""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--cyan); margin-right: 6px; box-shadow: 0 0 8px var(--cyan); animation: pulse 1.8s ease-in-out infinite; vertical-align: 1px; }
 
-  /* â”€â”€â”€ manifesto / why â”€â”€â”€ */
+  /* ─── manifesto / why ─── */
   .manifesto { font-family: "VT323", monospace; font-size: clamp(28px, 3.2vw, 36px); line-height: 1.18; color: var(--ink); max-width: 860px; margin: 0 0 32px; }
   .manifesto .pop { color: var(--cyan); }
   .manifesto .pop2 { color: var(--ember); }
@@ -602,7 +602,7 @@
   .why-card.ember { border-color: rgba(255,168,115,0.3); }
   .why-card.ember .label { color: var(--ember); }
 
-  /* â”€â”€â”€ disclaimer block â”€â”€â”€ */
+  /* ─── disclaimer block ─── */
   .disclaimer-doc {
     border: 1px solid var(--line);
     background: rgba(11,18,24,0.55);
@@ -624,7 +624,7 @@
   .disclaimer-body li::marker { color: var(--dim); }
   .disclaimer-body h4 { font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ember); margin: 18px 0 8px; font-weight: 500; }
 
-  /* â”€â”€â”€ closing â”€â”€â”€ */
+  /* ─── closing ─── */
   .closing { padding: 56px 0 8px; }
   .closing-frame { border: 1px solid var(--line); background: linear-gradient(180deg, rgba(106,215,255,0.05), rgba(11,18,24,0.5) 60%); padding: 36px 38px; text-align: center; }
   .closing-frame .glyph-big { font-family: "VT323", monospace; color: var(--cyan); font-size: 64px; line-height: 0.85; margin-bottom: 16px; display: inline-block; }
@@ -633,7 +633,7 @@
   .closing-frame p { margin: 0 0 6px; color: var(--ink-soft); font-size: 14px; }
   .closing-frame p em { color: var(--cyan); font-style: normal; }
 
-  /* â”€â”€â”€ footer â”€â”€â”€ */
+  /* ─── footer ─── */
   footer { margin-top: 80px; border-top: 1px solid var(--line); padding: 40px 0 80px; }
   .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 28px; }
   @media (max-width: 760px) { .foot-grid { grid-template-columns: 1fr 1fr; } }
@@ -922,7 +922,7 @@
     position: relative;
   }
   .remix-quote::before {
-    content: "â”Œâ”€ /transmission Â· external-observer â”€â”";
+    content: "┌─ /transmission · external-observer ─┐";
     position: absolute; top: -10px; left: 16px;
     background: var(--bg); color: var(--dim);
     font-size: 11px; padding: 0 8px; letter-spacing: 0.04em;

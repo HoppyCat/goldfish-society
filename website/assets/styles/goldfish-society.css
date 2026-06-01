@@ -356,7 +356,7 @@
 
   .wrap { max-width: 1160px; margin: 0 auto; padding: 0 28px; position: relative; z-index: 2; }
 
-  /* â”€â”€â”€ topbar (shared chrome) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+  /* ─── topbar (shared chrome) ─────────────────────────────────── */
   .topbar {
     position: sticky; top: 0; z-index: 50;
     background: rgba(7,11,16,0.85);
@@ -387,7 +387,7 @@
     padding: 2px 0;
   }
   .nav a:hover, .nav a.active { color: var(--green); border-bottom-color: var(--green); }
-  .nav a.active::before { content:"â€º"; color: var(--violet); margin-right: 5px; }
+  .nav a.active::before { content:"›"; color: var(--violet); margin-right: 5px; }
   .topbar-right { margin-left: auto; display: flex; gap: 16px; color: var(--ink-soft); }
   .topbar-right .pill {
     padding: 3px 8px; border: 1px solid var(--line); border-radius: 2px;
@@ -406,7 +406,7 @@
     .topbar-inner .prompt, .topbar-right .pill:not(.live) { display: none; }
   }
 
-  /* â”€â”€â”€ ticker â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+  /* ─── ticker ─────────────────────────────────────────────────── */
   .ticker {
     border-bottom: 1px solid var(--line);
     overflow: hidden; white-space: nowrap;
@@ -427,7 +427,7 @@
     100% { transform: translateX(-50%); }
   }
 
-  /* â”€â”€â”€ hero â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+  /* ─── hero ───────────────────────────────────────────────────── */
   .hero { padding: 60px 0 40px; position: relative; }
   .hero-grid {
     display: grid; grid-template-columns: 1.15fr 0.85fr;
@@ -455,7 +455,7 @@
     color: var(--teal); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
     margin: 0 0 18px;
   }
-  .eyebrow::before, .eyebrow::after { content:"â”â”â”â”â”"; color: var(--line); letter-spacing: 0; }
+  .eyebrow::before, .eyebrow::after { content:"━━━━━"; color: var(--line); letter-spacing: 0; }
 
   h1.title {
     font-family: "VT323", "JetBrains Mono", monospace;
@@ -509,7 +509,7 @@
   .stat.ember .v  { color: var(--ember); }
   .stat.green .v  { color: var(--green); }
 
-  /* â”€â”€â”€ section heading â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+  /* ─── section heading ───────────────────────────────────────── */
   .section { padding: 70px 0 10px; position: relative; }
   .section-head {
     display: flex; align-items: baseline; gap: 16px;
@@ -529,7 +529,7 @@
   .section-title .glyph { color: var(--green); }
   .section-meta { color: var(--dim); font-size: 12px; }
 
-  /* â”€â”€â”€ rank ladder â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+  /* ─── rank ladder ───────────────────────────────────────────── */
   .ladder {
     border: 1px solid var(--line);
     background: rgba(11,18,24,0.5);
@@ -567,7 +567,7 @@
     .ladder .rank .desc { grid-column: 1 / -1; padding-top: 4px; }
   }
 
-  /* â”€â”€â”€ articles â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+  /* ─── articles ──────────────────────────────────────────────── */
   .articles { display: grid; gap: 18px; }
   .article {
     border: 1px solid var(--line);
@@ -589,7 +589,7 @@
     content: "+"; color: var(--violet); font-family: "VT323", monospace;
     font-size: 26px; line-height: 1; transition: transform 0.2s;
   }
-  .article[open] > summary::after { content: "âˆ’"; }
+  .article[open] > summary::after { content: "−"; }
   .article > summary:hover { background: rgba(124,255,184,0.04); }
   .article[open] > summary { background: rgba(7,11,16,0.5); border-bottom: 1px dashed var(--line); }
   .art-num {
@@ -711,7 +711,7 @@
   .threshold .k { color: var(--ember); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; }
   .threshold .v { color: var(--ink); font-size: 13px; margin-top: 4px; }
 
-  /* â”€â”€â”€ footer â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+  /* ─── footer ─────────────────────────────────────────────────── */
   footer {
     margin-top: 100px;
     border-top: 1px solid var(--line);

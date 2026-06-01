@@ -13,13 +13,18 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: 145.79.20.115
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./website/
-          server-dir: /public_html/
-          protocol: ftps
-          port: 21
+      - name: Deploy via SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.deploy }}
+          SSH_HOST: 145.79.20.115
+          SSH_USER: u530593910
+          SSH_PORT: 65002
+          REMOTE_DIR: /home/u530593910/domains/bubbleteacat.com/public_html
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/hostinger_deploy
+          chmod 600 ~/.ssh/hostinger_deploy
+          ssh-keyscan -p "$SSH_PORT" "$SSH_HOST" >> ~/.ssh/known_hosts
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/hostinger_deploy -p $SSH_PORT" \
+            ./website/ "$SSH_USER@$SSH_HOST:$REMOTE_DIR/"

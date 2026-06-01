@@ -20,6 +20,16 @@ Do not embed images as base64/data URLs in the HTML. Reference files instead:
 
 This keeps the HTML readable, keeps Git diffs smaller, and prevents AI chats from getting bloated when the files are discussed.
 
+Shared page CSS lives in `assets/styles/`. Small page scripts live in `assets/scripts/`.
+
+If a fresh Claude Design export brings inline CSS or scripts back into the HTML, run:
+
+```sh
+node tools/extract-inline-website-assets.mjs
+```
+
+That moves inline styles/scripts into local files so GitHub does not classify the whole repo as one big block of HTML.
+
 ## Editing Notes
 
 - Keep changes scoped to `website/` unless Hoppy asks for broader repo edits.

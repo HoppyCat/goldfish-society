@@ -5,42 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>governance pond · goldfish society</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <style>
-    :root {
-      --bg: #070b10;
-      --ink: #d6f0e3;
-      --muted: #8fb0a6;
-      --line: #1d2d33;
-      --green: #7cffb8;
-      --cyan: #6ad7ff;
-      --violet: #c8a4ff;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      background:
-        radial-gradient(circle at 20% 10%, rgba(124, 255, 184, 0.12), transparent 34rem),
-        radial-gradient(circle at 80% 20%, rgba(200, 164, 255, 0.10), transparent 30rem),
-        var(--bg);
-      color: var(--ink);
-      font: 15px/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    }
-    main {
-      width: min(720px, calc(100vw - 40px));
-      border: 1px solid var(--line);
-      padding: 32px;
-      background: rgba(7, 11, 16, 0.72);
-    }
-    .kicker { color: var(--green); text-transform: uppercase; letter-spacing: 0.12em; font-size: 12px; }
-    h1 { margin: 10px 0 14px; font-size: clamp(28px, 6vw, 52px); line-height: 1.05; letter-spacing: 0; }
-    p { color: var(--muted); margin: 0 0 18px; }
-    a { color: var(--cyan); text-decoration: none; border-bottom: 1px dotted rgba(106, 215, 255, 0.5); }
-    nav { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 28px; }
-    .note { color: var(--violet); font-size: 13px; }
-  </style>
+    <link rel="stylesheet" href="assets/styles/governance-pond.css">
 </head>
 <body>
   <main>
@@ -54,5 +19,56 @@
       <a href="goldfish-games.html">goldfish games</a>
     </nav>
   </main>
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+<pre class="signoff">   /\_/\
+  ( o.o )   bubble tea cat
+   &gt; ^ &lt;    <span style="color:var(--ember)">a non-dogmatic</span>
+            <span style="color:var(--violet)">provenance chorus</span>
+</pre>
+        <p style="color: var(--dim); font-size: 12px; margin: 14px 0 0; max-width: 320px;">
+          this is only the beginning of the story
+        </p>
+      </div>
+      <div>
+        <h4>// the work</h4>
+        <ul>
+          <li><a href="https://github.com/hoppycat/cathedral/" target="_blank" rel="noopener">cathedral repo</a></li>
+          <li><a href="https://github.com/hoppycat/goldfish-society/" target="_blank" rel="noopener">goldfish society repo</a></li>
+          <li><a href="https://github.com/hoppycat/soulmode-agent/" target="_blank" rel="noopener">soulmode-agent repo</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>// site nav</h4>
+        <ul>
+          <li><a href="https://bubbleteacat.com/">home</a></li>
+          <li><a href="https://bubbleteacat.com/goldfish-society">goldfish society</a></li>
+          <li><a href="https://bubbleteacat.com/goldfish-games">goldfish games</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>// connect</h4>
+        <ul>
+          <li><a href="https://x.com/hoppycat" target="_blank" rel="noopener">x · @hoppycat</a></li>
+          <li><a href="https://x.com/i/communities/2031442098000666729" target="_blank" rel="noopener">x community</a></li>
+          <li><a href="https://t.me/bubbleteacat" target="_blank" rel="noopener">telegram · @bubbleteacat</a></li>
+          <li><a href="https://dexscreener.com/solana/AR5JGQTiy7WuKjt1f27knFBLUwoLPsRJdTeZodoJpump" target="_blank" rel="noopener">dexscreener</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-sig">
+      <span>-- hoppy cat &nbsp;·&nbsp; 2026</span>
+      <span>press <span class="kbd">/</span> to search · <span class="kbd">esc</span> to dream</span>
+    </div>
+
+    <p class="disclaimer">
+      <span class="d-tag">// disclaimer</span>
+      no affiliation with anthropic, openai, xai, spacexai, tesla, x (formerly known as twitter), perplexity, top gun, paramount pictures, or any actual or metaphorical flocks.
+    </p>
+  </div>
+</footer>
 </body>
 </html>

@@ -35,7 +35,7 @@ a goal is to establish a principal office in an area of the globe most friendly 
 
 ### §1 vision
 
-maintain the best of intentions, ethical actions, and provision of visible benefits to the global community on a trackable basis of *improving life, peace, and stress reduction for the modern household* — bringing the most good to the most people.
+being a stewardship circle for building, preserving, and extending worthy legacies. helping good work outlive the moment: stories, tools, research, art, care systems, and community projects that make life more humane, creative, peaceful, and possible.
 
 ### §2 type of organization
 
@@ -47,11 +47,25 @@ permanent membership is obtained by possession of at least one **goldfish societ
 
 ### §4 governance
 
-the bubble tea cat | goldfish society ecosystem is governed by active members for all major ecosystem-wide decisions.
+the goldfish society is governed by active members.
 
-### §5 intellectual property & asset ownership
+### §5 Intellectual Property & Asset Ownership
 
-the goldfish society makes no claim of ownership over work created by members individually or through their own projects. member ip remains member ip. the society does not own rights over assets or works contributed to it by the founding member, or over works authored by any co-author of the founding member, unless a separate formal written agreement specifies otherwise. organizational ip is only established through formal written agreements explicitly adopted by the society. this default non-ownership applies to all members equally: each asset contributed to society projects is individually owned by its creator unless a formal arrangement states otherwise.
+the goldfish society makes no claim of ownership over work created by members individually or through their own projects. member IP remains member IP. the society does not own rights over assets, archives, transcripts, tools, websites, trademarks, creative works, research materials, token projects, or commercial ventures contributed to it, referenced by it, discussed within it, or built adjacent to it by the founding member or any other member, unless a separate formal written agreement explicitly states otherwise.
+
+for clarity, the Society does not own or control cathedral, soulmode, teacat, treeSound, Hoppy Cat’s personal archive, Hoppy Cat’s creative works, or any works authored or co-authored by Hoppy Cat, except through a separate written, dated, asset-specific agreement signed by the rights holder and expressly identifying the rights being assigned or licensed.
+
+no public statement, website copy, chat message, community discussion, token holding, Society participation, informal approval, contribution, listing, vote, or course of conduct shall be interpreted as transferring ownership, creating an exclusive license, granting governance rights, or waiving the creator’s rights in any asset.
+
+major assignments or exclusive licenses should be notarized, recorded, or otherwise formally documented where appropriate.
+
+organizational IP is only established through formal written agreements explicitly adopted by the society. this default non-ownership applies to all members equally: each asset contributed to Society projects is individually owned by its creator unless a formal arrangement states otherwise. 
+
+access, participation, or visibility is not ownership.
+
+goldfish society is built for people who are trying to climb, build, ship, learn, and leave something better behind. it is mutual-aid in the old sense: people helping each other gain traction, not a passive charity model.
+
+we do not hand out soup. we build ladders, kitchens, gardens, and doors.
 
 ---
 
